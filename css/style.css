@@ -1,12 +1,14 @@
 /* ==============================
    SECTION 1: RESET CSS
-   ============================== */
-
-   html{
+   ============================== 
+   
+*/
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,700;1,500&display=swap');
+html{
     font-size: 62.5%; /* 16px multiplié par 62.5% = 10 rem */
 }
 body{
-    font: 1.6rem sans-serif;
+    font: 1.6rem "Montserrat", sans-serif;
     margin: 0;
     letter-spacing: 0.1rem; /* 1px */
     line-height: 1.6;
@@ -67,5 +69,15 @@ figure figcaption ul li:nth-child(2n + 1){ /* 1 sur 2 à partir du 1er */
 details summary{
     line-height: 6rem;
     background-color: var(--bgcolor-list);
-    padding-left: .5rem;
+    padding-left: 0 .5rem;
+}
+details p{
+    padding: 0 .5rem;
+}
+/* footer */
+footer *{
+    text-align: center;
+    color: var(--letter-color);
+    line-height: 4.5rem;
+
 }
