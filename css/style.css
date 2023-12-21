@@ -47,10 +47,10 @@ figure figcaption ul li:nth-child(2n + 1){ /* 1 sur 2 à partir du 1er */
 details summary{
     line-height: 6rem;
     background-color: var(--bgcolor-list);
-    padding-left: 0 .5rem;
+    padding-left: 0.5rem;
 }
 details p{
-    padding: 0 .5rem;
+    padding: 0.5rem;
 }
 /* footer */
 footer *{
@@ -61,19 +61,12 @@ footer *{
 }
 
 /* media queris */
-@media screen and (max-width: 90rem){
+@media screen and (max-width: 100rem){
     figure figcaption ul{
-        line-height: 6rem;
+        line-height: 3.5rem;
     }
     details p{
         text-align: left;
     }
-@media screen and (max-width: 90rem){
-        figure figcaption ul{
-            line-height: 6rem;
-        }
-        details p{
-            text-align: left; 
-        }
     
 }
